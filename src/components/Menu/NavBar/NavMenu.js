@@ -41,10 +41,10 @@ function NavMenu({open}) {
 
     if (localStorage.getItem('userData')) {
         buttons = ( <Ul open={open} className="navigation-bar-ul">
-                <li><a href="/home" className="navigation-bar-home">Home</a></li>
+                <li><a href="/" className="navigation-bar-home">Home</a></li>
                 <li><a href="/projects" className="navigation-bar-about">Projects</a></li>
                 <li><a href="/about" className="navigation-bar-projects">About Us</a></li>
-                <li><a href="/home/#send-message" className="navigation-bar-contact">Contacts</a></li>
+                <li><a href="/#send-message" className="navigation-bar-contact">Contacts</a></li>
                 {/* <li><a href="/faq" className="navigation-bar-faq">FAQ</a></li> */}
                 <li><a href = "/login"
                 className = "navigation-bar-log-in"
@@ -53,10 +53,10 @@ function NavMenu({open}) {
             )
     }else {
             buttons = ( <Ul open={open} className="navigation-bar-ul">
-                <li><a href="/home" className="navigation-bar-home">Home</a></li>
+                <li><a href="/" className="navigation-bar-home">Home</a></li>
                 <li><a href="/projects" className="navigation-bar-about">Projects</a></li>
                 <li><a href="/about" className="navigation-bar-projects">About Us</a></li>
-                <li><a href="/home/#send-message" className="navigation-bar-contact">Contacts</a></li>
+                <li><a href="/#send-message" className="navigation-bar-contact">Contacts</a></li>
                 {/* <li><a href="/faq" className="navigation-bar-faq">FAQ</a></li> */}
                 <li><a href="/login" className="navigation-bar-sign-in">Sign-In</a></li>
                 <li><a href="/register" className="navigation-bar-sign-up">Register</a></li>

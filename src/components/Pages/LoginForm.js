@@ -36,6 +36,10 @@ class LoginForm extends Component {
         this.props.history.push('/register'); 
     }
 
+    redirectToLoginLogin = () => {
+        this.props.history.push('/login/#login');
+    }
+
     render() {
         let error = '';
 
@@ -53,7 +57,7 @@ class LoginForm extends Component {
                     {error}
                     <br />               
                     <br />               
-                    <h1 className="login-register-header">Login</h1>
+                    <h1 id="login" className="login-register-header">Login</h1>
                     <br />               
                     <br />               
                     <div className="form-group text-left">
@@ -80,7 +84,7 @@ class LoginForm extends Component {
                         <input type='submit' 
                         value='Login' 
                         className="btn btn-primary"
-                        />
+                        onClick={() => this.redirectToLoginLogin()} />
                     </div>
 
                     <a href="/forgot" className="forgot-password">Forgot Password?</a>

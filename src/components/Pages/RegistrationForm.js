@@ -38,6 +38,10 @@ class RegistrationForm extends Component {
         )
     };
 
+    redirectToRegisterRegister = () => {
+        this.props.history.push('/register/#register');
+    }
+
     redirectToHome = () => {
         this.props.history.push('/home');
     }
@@ -63,7 +67,7 @@ class RegistrationForm extends Component {
                     {error}
                     <br/>
                     <br/>
-                    <h1 className="login-register-header">Register</h1>
+                    <h1 id="register" className="login-register-header">Register</h1>
                     <br/>
                     <br/>
                     <div className="form-group text-left">                
@@ -153,7 +157,7 @@ class RegistrationForm extends Component {
                         <input type='submit' 
                         value='Register' 
                         className="btn btn-primary" 
-                        />
+                        onClick={() => this.redirectToRegisterRegister()} />
                     </div>
                 </div>
 

@@ -67,7 +67,7 @@ class RegistrationForm extends Component {
                     {error}
                     <br/>
                     <br/>
-                    <h1 id="register" className="login-register-header">Register</h1>
+                    <a href="#register"><h1 id="register" className="login-register-header">Register</h1></a>
                     <br/>
                     <br/>
                     <div className="form-group text-left">                

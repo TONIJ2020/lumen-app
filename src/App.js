@@ -37,33 +37,33 @@ export default class App extends Component {
   render() {
 
     return (
-      <BrowserRouter>
-        <div className="App">
-          <NavBar user={this.state.user} setUser={this.setUser} />
-            <div className="container d-flex align-items-center flex-column">
-              <Switch>
-                <Route exact path="/" component={() => <Home user={this.state.user} />} />
-                <Route exact path="/home" component={() => <Home user={this.state.user} />} />
-                <Route exact path="/login" component={() => <LoginForm setUser={this.setUser} />} />
-                <Route exact path="/" component={Home} />
-                <Route exact path="/home" component={Home} />
-                <Route exact path="/register" component={RegistrationForm} />
-                <Route exact path="/projects" component={Projects} />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/kubwa" component={Kubwa} />
-                <Route exact path="/mabushi" component={Mabushi} />
-                <Route exact path="/wuye" component={Wuye} />
-                {/*<Route exact path="/dashboard" component={dashboard} />
-                <Route exact path="/reset:id" component={Reset} />
-                <Route exact path="/adaobifarm" component={Adaobifarm} />
-                <Route exact path="/uchefarm" component={Uchefarm} />
-                <Route exact path="/okorofarm" component={Okorofarm} />
-                <Route exact path="/projects" component={Projects} /> */}
-              </Switch>
-            </div>
-          <Footer />
-        </div>
-      </BrowserRouter>
+      <>
+        <BrowserRouter>
+          <div className="App">
+            <NavBar user={this.state.user} setUser={this.setUser} />
+              <div className="container d-flex align-items-center flex-column">
+                <Switch>
+                  <Route exact path="/" component={() => <Home user={this.state.user} />} />
+                  <Route exact path="/login" component={() => <LoginForm setUser={this.setUser} />} />
+                  <Route exact path="/home" component={Home} />
+                  <Route exact path="/register" component={RegistrationForm} />
+                  <Route exact path="/projects" component={Projects} />
+                  <Route exact path="/about" component={About} />
+                  <Route exact path="/kubwa" component={Kubwa} />
+                  <Route exact path="/mabushi" component={Mabushi} />
+                  <Route exact path="/wuye" component={Wuye} />
+                  {/*<Route exact path="/dashboard" component={dashboard} />
+                  <Route exact path="/reset:id" component={Reset} />
+                  <Route exact path="/adaobifarm" component={Adaobifarm} />
+                  <Route exact path="/uchefarm" component={Uchefarm} />
+                  <Route exact path="/okorofarm" component={Okorofarm} />
+                  <Route exact path="/projects" component={Projects} /> */}
+                </Switch>
+              </div>
+            <Footer />
+          </div>
+        </BrowserRouter>
+      </>
     );
   }
 }

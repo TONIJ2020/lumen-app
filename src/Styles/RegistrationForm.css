@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.loginText {
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.successMessage {
+    color: green;
+    font-weight: bold;
+}
+
+.login-card {
+    display: inline-flex;
+    width: 100%;
+    min-height: 50vh;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.form-group {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+input {
+    height: 30px;
+    border: 1px solid rgb(205, 200, 200);
+    outline: gainsboro;
+}
+
+label {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.card {
+    margin-top: 10rem;
+}
+
+.existed,
+.registerMessage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5rem auto;
+}
+
+.existed span,
+.registerMessage span {
+    margin-left: 0.5rem;
+}
+
+.btn-primary {
+    width: 100px;
+    height: 35px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    background-color: #007bff;
+    border-radius: 8px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forgot-password {
+    color: #007bff;
+    font: normal bold 14px/110.19% Arial;
+}
+
+@media only screen and (max-width:768px){
+    .form-group {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .form-group {
+        width: 280px;
+    }
+}

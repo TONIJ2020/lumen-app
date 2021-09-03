@@ -1,0 +1,136 @@
+body {
+    margin: 0%;
+    padding: 0%;   
+    bottom: 0%;
+    text-align: center;
+}
+
+.footer-main-div {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #007bff;
+}
+
+.social-icons {
+    flex-direction: row;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.twitter {
+    width: 35px;
+}
+
+.facebook,
+.linkedin,
+.instagram,
+.youtube {
+    width: 60px;
+    padding-left: 2rem;
+    z-index: 1;
+}
+
+ul > li > a {
+    color: white;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.footer-list-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem auto;
+}
+
+.footer-list-item {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.copyright-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+.privacy-div {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.copyright-text {
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+    font: normal normal 13px/110.19% Roboto;
+    letter-spacing: 1.25px;
+    margin: 0 auto;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.privacy-statement {
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 2rem;
+    margin-top: -0.3rem;
+}
+
+.footer-office-address {
+    color: #eee;
+    font: normal normal 16px/110.19% Roboto;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.incorporation-number {
+    color: #fff;
+    font: normal normal italic 12px/15px Roboto;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+@media only screen and (max-width:375px){
+    .facebook,
+    .linkedin,
+    .instagram,
+    .youtube {
+        width: 25px;
+        padding-left: 1.5rem;
+    }
+
+    ul > li > a {
+        font: normal normal 10px/110.19% Roboto;
+
+    }
+
+    .footer-list-item {
+        list-style: none;
+        margin-right: 1rem;
+    }
+
+    .copyright-text {
+        font: normal normal 13px/110.19% Roboto;
+        text-transform: initial;
+    }
+
+    .privacy-statement {
+        font: normal normal 13px/110.19% Roboto;
+        margin-top: 1rem;
+    }
+}
+
+
+

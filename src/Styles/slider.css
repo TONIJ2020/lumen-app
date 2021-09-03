@@ -1,0 +1,74 @@
+div.slider-div {
+    display: flex;
+    flex-direction: column;
+    background: #EEE;
+    background-image: url("/src/Assets/Wuye-Site-Layout.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#slider {
+  position: relative;
+  width: 640px;
+  height: 380px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 0 auto 4rem;  
+}
+#slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+  transition: all 750ms ease;
+  left: 0;
+}
+#slider ul li {
+  position: relative;
+  height: 100%;
+
+  float: left;
+}
+#slider ul li img{
+  width: 640px;
+  height: 380px;
+}
+#slider ul li h4{
+  color: #000;
+}
+#slider #prev, #slider #next {
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #0E0E0E;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+}
+#slider #prev {
+  left: 10px;
+}
+#slider #next {
+  right: 10px;
+}
+
+#slider #prev:hover, #slider #next:hover {
+  background-color: #EEE;
+  text-shadow: 0;
+}
+
+div.gallery-title h4 {
+  color: #272D4E;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 4rem;
+}

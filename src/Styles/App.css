@@ -1,0 +1,1051 @@
+.App {
+  text-align: center;
+}
+
+.hv-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+@media only screen and (max-width:768px){
+  .hv-center {
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width:375px){
+  .hv-center {
+    max-width: 300px;
+  }
+}
+
+.general-home-div {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+div.hero-section {
+  background: #FFF;
+  padding: 10rem;
+}
+
+div.hero-content-heading {
+  text-align: center;
+}
+
+div.hero-content-heading h3 {
+  text-transform: uppercase;
+  font: 600 normal 2rem/2rem Rubik, Sans-serif;
+  color: #272D4E;
+}
+
+div.hero-content-heading p {
+    text-align: center;
+    padding-top: 0.7rem;
+    color: #4c4d4f;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+div.hero-content-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+div.hero-content-btn a {
+    background: #007bff;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 0.9rem;
+    padding: 10px 30px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+}
+
+div.hero-background {
+    background-image: url("/src/Assets/Wuye-overview.jpg");
+    padding: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {  
+    div.hero-section {
+        padding: 5rem 2rem;
+        width: 100%;
+    }
+    div.hero-content-heading h3 {
+        font-size: 1.6rem;
+        text-transform: initial;
+        text-align: center;
+    }
+    
+    div.hero-content-heading p {
+        font-size: 0.7rem;
+    }
+}
+
+div.background {
+  background: #fff;
+  box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+  border-radius: 20px;
+  padding: 6px 6px;
+  width: 700px;
+  position: relative;
+}
+
+div.background h4 {
+  padding: 2rem;
+  color: #272D4E;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+div.background p {
+  color: #000;
+  padding: 0 2rem 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-align: justify;
+  z-index: 0;
+}
+
+div.hero-background-pos {
+  position: absolute;
+  right: 0px;
+  left: 70%;
+  background-size: 400px;
+  background: #fff;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+}
+
+.radial-4-bedroom-detached {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  div.hero-background {
+    padding: 2.9rem;
+  }
+
+  div.background {
+    padding: 10px 31px;
+    width: 80vw;
+    height: 245px;
+  }
+  
+  div.background h4 {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+  
+  div.background p {
+    padding-left: 1rem;
+    font-size: x-small;
+  }
+  
+  div.hero-background-pos {
+    display: none;
+  }
+}
+
+div.snapshot-team {
+  background: #f0f0f0;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+div.snapshot-team h2 {
+  color: #272D4E;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+div.snapshot-team p {
+  color: #18171a;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  padding-top: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+  div.snapshot-team h2 {
+    font-size: 1.15rem;
+  }
+  
+  div.snapshot-team p {
+    font-size: 0.7rem;
+  }
+}
+
+div.snapshot-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f0f0;
+  padding: 4rem 6rem;
+}
+
+div.snapshot-box-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.box1 {
+  background: #fff;
+  padding: 10px 20px;
+  width: 220px;
+  height: 230px;
+  margin: 10px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+}
+
+div.box3 {
+  background: #272D4E;
+  padding: 10px 20px;
+  width: 220px;
+  height: 230px;
+  margin: 10px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+}
+
+div.box3 h5 {
+  text-align: center;
+  padding-top: 2rem;
+  color: #E44C65;
+  font-size: 1rem;
+}
+
+div.circle,
+div.circle1,
+div.circle2 {
+  display: flex;
+  margin: 0 auto;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #065a8b;
+  margin-top: 2rem;
+}
+
+div.circle {
+  background-image: url("/src/Assets/Ugochukwu-passport.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+div.circle1 {
+  background-image: url("/src/Assets/Henry-passport.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+div.circle2 {
+  background-image: url("/src/Assets/Nicholas-passport.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.box1 h5 {
+  text-align: center;
+  padding-top: 2rem;
+  color: #E44C65;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  div.snapshot-box {
+    padding: 2rem 0.1rem;
+  }
+  
+  div.snapshot-box-content {
+    flex-direction: column;
+  }
+
+  div.box1,
+  div.box3 {
+    width: 300px;
+  }
+}
+
+/* Our projects section */
+div.gallery-section {
+  background: #fff;
+  padding: 4rem;
+}
+
+div.gallery-content {
+  text-align: center;
+}
+
+div.gallery-content h4 {
+  color: #272D4E;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+div.gallery-content p {
+  color: #4c4d4f;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 550;
+  padding-top: 0.8rem;
+}
+
+div.gallery-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+div.img {
+  margin: 10px;
+}
+
+div.img img {
+  width: 250px;
+  height: 180px;
+}
+
+@media screen and (max-width: 768px) {
+  div.gallery-section {
+    width: 100%;
+    padding: 2rem;
+  }
+    
+  div.gallery-content h4 {
+    font-size: 1.3rem;
+  }
+  
+  div.gallery-content p {
+    font-size: 0.9rem;
+  }
+  
+  div.img img {
+    width: 300px;
+  }
+}
+
+/* contact us section */
+div.send-message {
+  background-image: url("/src/Assets/Wuye-gate-view.jpg");
+  background-size: cover;
+  background-color: #0368f5;
+  padding: 3rem;
+}
+
+div.send-message-content {
+  text-align: center;
+}
+
+div.send-message-content h4 {
+  color: #FFF;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+div.send-message-content p {
+  color: #FFF;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  padding-top: 0.8rem;
+}
+
+div.send-message-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.send-message-text-input {
+  margin-right: 10px;
+  padding: 10px 20px;
+  width: 25%;
+  outline: none;
+  border: 1px solid #f8f9fa;
+  background: transparent;
+  color: #f0f0f0;
+  font-size: 1rem;
+  border-radius: 2px;
+}
+
+.send-message-email-input {
+  margin-left: 10px;
+  padding: 10px 20px;
+  width: 25%;
+  outline: none;
+  border: 1px solid #f8f9fa;
+  background: transparent;
+  color: #f0f0f0;
+  font-size: 1rem;
+  border-radius: 2px;
+}
+
+::placeholder {
+  color: #EEE;
+}
+
+div.send-message-textarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+textarea {
+  width: 51%;
+  height: 150px;
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid #f8f9fa;
+  background: transparent;
+  color: #f0f0f0;
+}
+
+div.send-message-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+div.send-message-btn a {
+  background: #E44C65;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 0.9rem;
+  padding: 10px 30px;
+  border-radius: 3px;
+  letter-spacing: 2px;
+}
+
+div.send-message h6 {
+  text-align: center;
+  color: #88949B;
+  font-size: 1rem;
+  padding-top: 6rem;
+}
+
+div.send-message div.call-us ul li {
+  text-align: center;
+  color: #FFF;
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+  list-style: none;
+}
+
+div.send-message div.call-us{
+  margin-top: 6rem;
+}
+
+/* About Us Page */
+.about-navigation-bar-ul {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  justify-content: space-around;
+  margin-top: 5rem;
+  padding: 2rem;
+  list-style: none;
+  background-color: #272D4E;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-navigation-bar-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .about-navigation-bar-ul li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.about-navigation-bar-ul a {
+  font: normal normal 16px/110.19% Roboto;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+.about-navigation-bar-ul a:hover {
+  text-decoration: none;
+  color: #F5772F;
+  opacity: 0.9;
+}
+
+.about-navigation-bar-ul a:active {
+  color: #5074b7;
+}
+
+.about-navigation-bar-ul li {
+  margin-right: 1rem;
+}
+
+div.about-who-we-are {
+  background: #FFF;
+  padding: 4rem;
+  padding-top: 18rem;
+}
+
+div.about-who-we-are-heading {
+  text-align: center;
+}
+
+div.about-who-we-are-heading h3 {
+  text-transform: uppercase;
+  font: 600 normal 3rem/2rem Rubik, Sans-serif;
+  color: #272D4E;
+}
+
+div.about-who-we-are-heading p {
+  text-align: justify;
+  padding-top: 4rem;
+  color: #5d6868;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+div.about-objectivity {
+  background-color: #FFF;
+  background-image: url("/src/Assets/IMG-20201111-WA0018.jpg");
+  background-size: cover;
+  padding: 8rem;
+}
+
+div.about-objectivity-heading {
+  text-align: center;
+}
+
+div.about-objectivity-heading h3 {
+  text-transform: uppercase;
+  font: 600 normal 3rem/2rem Rubik, Sans-serif;
+  color: #ff0000;
+  padding: 10px 0;
+  background-color: #FFF;
+  border-radius: 20px;
+}
+
+div.about-objectivity-heading p {
+  text-align: justify;
+  padding: 4rem;
+  color: #000;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  background-color: #FFF;
+  line-height: 1.5rem;
+  border-radius: 20px;
+}
+
+div.about-vision {
+  background: #FFF;
+  padding: 8rem;
+}
+
+div.about-vision-heading {
+  text-align: center;
+}
+
+div.about-vision-heading h3 {
+  text-transform: uppercase;
+  font: 600 normal 3rem/2rem Rubik, Sans-serif;
+  color: #272D4E;
+}
+
+div.about-vision-heading p {
+  text-align: center;
+  padding-top: 4rem;
+  color: #5d6868;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+div.about-mission {
+  background-color: #FFF;
+  background-image: url("/src/Assets/IMG-20201111-WA0022.jpg");
+  background-size: cover;
+  padding: 8rem;
+}
+
+div.about-mission-heading {
+  text-align: center;
+}
+
+div.about-mission-heading h3 {
+  text-transform: uppercase;
+  font: 600 normal 3rem/2rem Rubik, Sans-serif;
+  color: #ff0000;
+  background-color: #FFF;
+  border-radius: 20px;
+  padding: 10px 0;
+}
+
+div.about-mission-heading p {
+  text-align: justify;
+  padding: 4rem;
+  color: #5d6868;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  background-color: #FFF;
+  border-radius: 20px;
+  line-height: 1.5rem;
+}
+
+div.about-management {
+  background: #FFF;
+  padding: 8rem;
+}
+
+div.about-management-heading {
+  text-align: center;
+}
+
+div.about-management-heading h3 {
+  text-transform: uppercase;
+  font: 600 normal 3rem/2rem Rubik, Sans-serif;
+  color: #612426;
+}
+
+div.about-management-heading p {
+  text-align: justify;
+  padding-top: 4rem;
+  color: #5d6868;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+div.about-our-people {
+  background: #EEE;
+  padding: 8rem;
+}
+
+div.about-our-people-heading {
+  text-align: center;
+}
+
+div.about-our-people-heading h3 {
+  text-transform: uppercase;
+  font: 600 normal 3rem/2rem Rubik, Sans-serif;
+  color: #272D4E;
+}
+
+div.about-our-people-heading p {
+  text-align: justify;
+  padding-top: 4rem;
+  color: #5d6868;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+div.about-our-people {
+  background: #EEE;
+  padding: 8rem;
+}
+
+div.about-our-people-heading {
+  text-align: center;
+}
+
+div.about-our-people-heading h3 {
+  text-transform: uppercase;
+  font: 600 normal 3rem/2rem Rubik, Sans-serif;
+  color: #272D4E;
+}
+
+div.about-our-people-heading p {
+  text-align: justify;
+  padding-top: 4rem;
+  color: #5d6868;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+div.about-big-player {
+  background: #007bff;
+  padding: 8rem;
+}
+
+div.about-big-player-heading {
+  text-align: center;
+}
+
+div.about-big-player-heading h3 {
+  text-transform: uppercase;
+  font: 600 normal 3rem/3rem Rubik, Sans-serif;
+  color: #FFF;
+}
+
+div.about-big-player-heading p {
+  text-align: justify;
+  padding-top: 4rem;
+  color: rgb(175, 173, 173);
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+div.about-what-we-do {
+  background: #EEE;
+  padding: 8rem;
+}
+
+div.about-what-we-do-heading {
+  text-align: center;
+}
+
+div.about-what-we-do-heading h3 {
+  text-transform: uppercase;
+  font: 600 normal 3rem/3rem Rubik, Sans-serif;
+  color: #272D4E;
+}
+
+div.about-what-we-do-heading h4 {
+  text-transform: uppercase;
+  font: 600 normal 2rem/3rem Rubik, Sans-serif;
+  color: #ff0000;
+}
+
+div.about-what-we-do-heading p {
+  text-align: justify;
+  padding-top: 4rem;
+  color: #4c4d4f;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+div.about-after-follow {
+  background: #FFF;
+  padding: 8rem;
+}
+
+div.about-after-follow-heading {
+  text-align: center;
+}
+
+div.about-after-follow-heading h3 {
+  text-transform: uppercase;
+  font: 600 normal 3rem/3rem Rubik, Sans-serif;
+  color: #272D4E;
+}
+
+div.about-after-follow-heading p {
+  text-align: justify;
+  padding-top: 4rem;
+  color: #4c4d4f;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  div.about-who-we-are-heading h3,
+  div.about-objectivity-heading h3,
+  div.about-vision-heading h3,
+  div.about-mission-heading h3,
+  div.about-objectivity-heading h3,
+  div.about-management-heading h3,
+  div.about-our-people-heading h3,
+  div.about-big-player-heading h3,
+  div.about-what-we-do-heading h4,
+  div.about-management-heading h3,
+  div.about-after-follow-heading h3 {
+    font: 600 normal 3rem/3rem Rubik, Sans-serif;
+    text-transform: capitalize;  
+  }
+
+  div.about-who-we-are-heading p,
+  div.about-objectivity-heading p,
+  div.about-vision-heading p,
+  div.about-mission-heading p,
+  div.about-objectivity-heading p,
+  div.about-management-heading p,
+  div.about-our-people-heading p,
+  div.about-big-player-heading p,
+  div.about-what-we-do-heading p,
+  div.about-management-heading p,
+  div.about-after-follow-heading p {
+    font-size: 0.7rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  div.about-who-we-are {
+    padding-top: 30rem;
+  }
+}
+
+/* Kubwa site */
+div.kubwa-site {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10rem;
+}
+
+div.kubwa-site-heading h3 {
+  text-transform: uppercase;
+  font: 600 normal 3rem/3rem Rubik, Sans-serif;
+  color: #272D4E;
+  text-align: center;
+}
+
+div.kubwa-site-heading p {
+  padding: 4rem;
+  margin: 0 auto;
+  text-align: center;
+  color: #4c4d4f;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+div.kubwa-img-div img{
+  margin: 4rem;
+}
+
+#kubwa-slider {
+  position: relative;
+  width: 640px;
+  height: 380px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 0 auto 4rem;  
+}
+#kubwa-slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+  transition: all 750ms ease;
+  left: 0;
+}
+#kubwa-slider ul li {
+  position: relative;
+  height: 100%;
+
+  float: left;
+}
+#kubwa-slider ul li img{
+  width: 640px;
+  height: 380px;
+}
+#kubwa-slider ul li h4{
+  color: #000;
+  font-size: 1.4rem;
+}
+#kubwa-slider #prev, #kubwa-slider #next {
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #0E0E0E;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+}
+#kubwa-slider #prev {
+  left: 10px;
+}
+#kubwa-slider #next {
+  right: 10px;
+}
+
+#kubwa-slider #prev:hover, #kubwa-slider #next:hover {
+  background-color: #EEE;
+  text-shadow: 0;
+}
+
+/* Mabushi site */
+div.mabushi-site {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10rem;
+}
+
+div.mabushi-site-heading h3 {
+  text-transform: uppercase;
+  font: 600 normal 3rem/3rem Rubik, Sans-serif;
+  color: #272D4E;
+  text-align: center;
+}
+
+div.mabushi-site-heading h6 {
+  padding: 0 4rem 4rem;
+  margin: 0 auto;
+  text-align: center;
+  color: #4c4d4f;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+div.mabushi-site-heading p {
+  padding: 4rem;
+  margin: 0 auto;
+  text-align: center;
+  color: #4c4d4f;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+/* Wuye Site */
+div.wuye-img-div img{
+  margin: 4rem;
+}
+
+#wuye-slider {
+  position: relative;
+  width: 640px;
+  height: 380px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 0 auto 4rem;  
+}
+#wuye-slider ul {
+  position: relative;
+  list-style: none;
+  height: 100%;
+  width: 10000%;
+  padding: 0;
+  margin: 0;
+  transition: all 750ms ease;
+  left: 0;
+}
+#wuye-slider ul li {
+  position: relative;
+  height: 100%;
+
+  float: left;
+}
+#wuye-slider ul li img{
+  width: 640px;
+  height: 380px;
+}
+#wuye-slider ul li h4{
+  color: #000;
+  font-size: 1.4rem;
+}
+#wuye-slider #prev, #wuye-slider #next {
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #0E0E0E;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+}
+#wuye-slider #prev {
+  left: 10px;
+}
+#wuye-slider #next {
+  right: 10px;
+}
+
+#wuye-slider #prev:hover, #wuye-slider #next:hover {
+  background-color: #EEE;
+  text-shadow: 0;
+}
+
+/* Mabushi site */
+div.wuye-site {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10rem;
+}
+
+div.wuye-site-heading h3 {
+  text-transform: uppercase;
+  font: 600 normal 3rem/3rem Rubik, Sans-serif;
+  color: #272D4E;
+  text-align: center;
+}
+
+div.wuye-site-heading h6 {
+  padding: 0 4rem 4rem;
+  margin: 0 auto;
+  text-align: center;
+  color: #4c4d4f;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+div.wuye-site-heading p {
+  padding: 4rem;
+  margin: 0 auto;
+  text-align: center;
+  color: #4c4d4f;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  line-height: 1.5rem;
+}

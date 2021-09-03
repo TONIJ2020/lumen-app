@@ -49,9 +49,13 @@ class LoginForm extends Component {
 
         return(
             <div onSubmit={this.handleSubmit} className="card col-12 col-lg-4 login-card mt-2 hv-center">  
-            {error}                  
-            <h1 className="login-register-header">Login</h1>
                 <form>
+                    {error}
+                    <br />               
+                    <br />               
+                    <h1 className="login-register-header">Login</h1>
+                    <br />               
+                    <br />               
                     <div className="form-group text-left">
                         <label>Email address</label>
                         <input type="email" 

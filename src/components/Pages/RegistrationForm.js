@@ -60,7 +60,13 @@ class RegistrationForm extends Component {
         return(
             <form onSubmit={this.handleSubmit} className="card col-12 col-lg-4 login-card mt-2 hv-center">
                 <div>
-                    <div className="form-group text-left">
+                    {error}
+                    <br/>
+                    <br/>
+                    <h3 className="login-register-header">Register</h3>
+                    <br/>
+                    <br/>
+                    <div className="form-group text-left">                
                         <label>First name</label>
                         <input type="text" 
                             className="form-control" 

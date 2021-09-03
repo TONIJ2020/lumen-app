@@ -41,7 +41,7 @@ function NavMenu({open}) {
 
     if (localStorage.getItem('userData')) {
         buttons = ( <Ul open={open} className="navigation-bar-ul">
-                <li><a href="/" className="navigation-bar-home">Home</a></li>
+                <li><a href="/home" className="navigation-bar-home">Home</a></li>
                 <li><a href="/projects" className="navigation-bar-about">Projects</a></li>
                 <li><a href="/about" className="navigation-bar-projects">About Us</a></li>
                 <li><a href="/home/#send-message" className="navigation-bar-contact">Contacts</a></li>
@@ -53,7 +53,7 @@ function NavMenu({open}) {
             )
     }else {
             buttons = ( <Ul open={open} className="navigation-bar-ul">
-                <li><a href="/" className="navigation-bar-home">Home</a></li>
+                <li><a href="/home" className="navigation-bar-home">Home</a></li>
                 <li><a href="/projects" className="navigation-bar-about">Projects</a></li>
                 <li><a href="/about" className="navigation-bar-projects">About Us</a></li>
                 <li><a href="/home/#send-message" className="navigation-bar-contact">Contacts</a></li>

@@ -43,6 +43,7 @@ export default class App extends Component {
             <div className="container d-flex align-items-center flex-column">
               <Switch>
                 <Route exact path="/" component={() => <Home user={this.state.user} />} />
+                <Route exact path="/home" component={() => <Home user={this.state.user} />} />
                 <Route exact path="/login" component={() => <LoginForm setUser={this.setUser} />} />
                 <Route exact path="/" component={Home} />
                 <Route exact path="/home" component={Home} />

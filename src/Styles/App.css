@@ -803,6 +803,20 @@ div.about-after-follow-heading p {
 }
 
 @media only screen and (max-width: 768px) {
+  div.about-who-we-are,
+  div.about-objectivity,
+  div.about-vision,
+  div.about-mission,
+  div.about-objectivity,
+  div.about-management,
+  div.about-our-people,
+  div.about-big-player,
+  div.about-what-we-do,
+  div.about-management,
+  div.about-after-follow {
+    padding: 2rem;
+  }
+
   div.about-who-we-are-heading h3,
   div.about-objectivity-heading h3,
   div.about-vision-heading h3,
@@ -814,7 +828,7 @@ div.about-after-follow-heading p {
   div.about-what-we-do-heading h4,
   div.about-management-heading h3,
   div.about-after-follow-heading h3 {
-    font: 600 normal 3rem/3rem Rubik, Sans-serif;
+    font: 600 normal 2.5rem/3rem Rubik, Sans-serif;
     text-transform: capitalize;  
   }
 
@@ -829,13 +843,24 @@ div.about-after-follow-heading p {
   div.about-what-we-do-heading p,
   div.about-management-heading p,
   div.about-after-follow-heading p {
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     font-weight: 300;
     text-align: center;
   }
 
+  div.about-objectivity-heading p,
+  div.about-mission-heading p {
+    padding: 1.5rem;
+  }
+
   div.about-who-we-are {
     padding-top: 30rem;
+  }
+
+  div.about-what-we-do-heading h3 {
+    text-transform: uppercase;
+    font: 600 normal 2.6rem/2rem Rubik, Sans-serif;
+    color: #272D4E;
   }
 }
 

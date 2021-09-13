@@ -44,8 +44,6 @@ export default class App extends Component {
               <Switch>
                 <Route exact path="/" component={() => <Home user={this.state.user} />} />
                 <Route exact path="/login" component={() => <LoginForm setUser={this.setUser} />} />
-                <Route exact path="/" component={Home} />
-                <Route exact path="/home" component={Home} />
                 <Route exact path="/register" component={RegistrationForm} />
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/about" component={About} />

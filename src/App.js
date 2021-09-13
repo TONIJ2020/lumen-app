@@ -46,16 +46,12 @@ export default class App extends Component {
                 <Route exact path="/login" component={() => <LoginForm setUser={this.setUser} />} />
                 <Route exact path="/register" component={RegistrationForm} />
                 <Route exact path="/projects" component={Projects} />
+                {/* <Route exact path="/dashboard" component={dashboard} /> */}
                 <Route exact path="/about" component={About} />
                 <Route exact path="/kubwa" component={Kubwa} />
                 <Route exact path="/mabushi" component={Mabushi} />
                 <Route exact path="/wuye" component={Wuye} />
-                {/*<Route exact path="/dashboard" component={dashboard} />
-                <Route exact path="/reset:id" component={Reset} />
-                <Route exact path="/adaobifarm" component={Adaobifarm} />
-                <Route exact path="/uchefarm" component={Uchefarm} />
-                <Route exact path="/okorofarm" component={Okorofarm} />
-                <Route exact path="/projects" component={Projects} /> */}
+                <Route exact path="/projects" component={Projects} />
               </Switch>
             </div>
           <Footer />

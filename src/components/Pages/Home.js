@@ -7,12 +7,12 @@ import HomeImg from '../../Assets/4-Bedroom-fully-detached.jpg';
 // import axios from 'axios'
 
 export default class Home extends Component {
-//      render() {
-//         if(this.props.user){
-//             return (
-//                 <h2>Welcome! {this.props.user.firstName} {this.props.user.lastName} </h2>
-//             )
-//         }
+     render() {
+        if(this.props.user){
+            return (
+                <h2>Welcome! {this.props.user.firstName} {this.props.user.lastName} </h2>
+            )
+        }
         return(
             <div className="general-home-div">
                 {/* Welcome section */}

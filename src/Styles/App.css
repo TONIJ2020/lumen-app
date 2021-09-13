@@ -396,7 +396,7 @@ div.send-message-input {
   padding: 10px 20px;
   width: 25%;
   outline: none;
-  border: 1px solid #f8f9fa;
+  border: 1px solid #E44C65;
   background: transparent;
   color: #f0f0f0;
   font-size: 1rem;
@@ -408,7 +408,7 @@ div.send-message-input {
   padding: 10px 20px;
   width: 25%;
   outline: none;
-  border: 1px solid #f8f9fa;
+  border: 1px solid #E44C65;
   background: transparent;
   color: #f0f0f0;
   font-size: 1rem;
@@ -416,7 +416,7 @@ div.send-message-input {
 }
 
 ::placeholder {
-  color: #EEE;
+  color: #E44C65;
 }
 
 div.send-message-textarea {
@@ -431,7 +431,7 @@ textarea {
   height: 150px;
   padding: 0.5rem;
   outline: none;
-  border: 1px solid #f8f9fa;
+  border: 1px solid #E44C65;
   background: transparent;
   color: #f0f0f0;
 }
@@ -914,6 +914,20 @@ div.kubwa-img-div img{
   text-shadow: 0;
 }
 
+@media only screen and (max-width: 768px) {
+  #kubwa-slider {
+    width: 300px;
+    height: 200px;
+  }
+  #kubwa-slider ul li img{
+    width: 300px;
+    height: 200px;
+  }
+  #kubwa-slider ul li h4{
+    font-size: 0.8rem;
+  }
+}
+
 /* Mabushi site */
 div.mabushi-site {
   display: flex;
@@ -1012,6 +1026,20 @@ div.wuye-img-div img{
 #wuye-slider #prev:hover, #wuye-slider #next:hover {
   background-color: #EEE;
   text-shadow: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #wuye-slider {
+    width: 300px;
+    height: 200px;
+  }
+  #wuye-slider ul li img{
+    width: 300px;
+    height: 200px;
+  }
+  #wuye-slider ul li h4{
+    font-size: 0.8rem;
+  }
 }
 
 /* Mabushi site */
